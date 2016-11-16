@@ -1,0 +1,354 @@
+*{
+
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+/** The Themes Default style **/
+
+img{
+
+	max-width:100%;
+}
+.section-padding{
+
+	padding:50px 0;
+}
+.fix:before,.fix:after{
+
+	content:"";
+	display:table;
+}
+
+.fix:after{
+    
+	clear:both;
+}
+
+.padding-bottom-5{
+
+	padding-bottom:5%;
+}
+.padding-top-5{
+
+	padding-top:5%;
+}
+
+/* End Default Styles */
+
+ /* Feature Area */
+.feature-text{
+
+  width:80%;
+  float:left;
+}
+.feature-circle{
+
+	width:20%;
+	float:left;
+}
+.default-heading{
+
+	color:#16365b;
+}
+.default-heading:after{
+
+	content:"";
+	width:40px;
+	height:5px;
+    background-color:#16365b;
+    display:block;
+    margin:0 auto;
+    margin-top:10px;
+}
+
+
+.feature-text h1,h2,h3,h4,h5,h6{
+
+	margin-top:0;
+	margin-bottom:3%;
+}
+
+.right-features .feature-text{
+
+	float:right;
+}
+
+/* End Feature Area */
+
+/* Start Menu Area */
+.top-menu{
+
+	background-color:#003366;
+	transition:all .6s;
+}
+
+.top-menu ul li a{
+
+	color:#fff;
+	text-transform:uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-weight:500;
+	font-size:16px;
+	transition:all .5s;
+
+}
+
+.nav li.active{
+
+	background:#2980b9;
+}
+
+.nav > li > a:focus, .nav > li > a:hover{
+
+   background:#2980b9;
+   
+}
+
+.animation-effect{
+
+	background-color:#34495e;
+	box-shadow: 0 0 10px #000;
+}
+
+.blue-circle{
+
+	width:70%;
+	padding-bottom:70%;
+	background-color:#16365b; 
+	border-radius: 50%;
+	margin:0 auto;
+	position:relative;
+}
+
+.blue-circle .icon{
+    display:block;
+    position:absolute;
+    width:100%;
+	text-align:center;
+	color:#fff;
+	top:50%;
+	transform:translateY(-50%);
+}
+
+.feature-circle .blue-circle .icon i{
+
+	font-size:2em;
+}
+
+.blue-circle .icon i{
+
+	font-size:5em;
+}
+.single-about .blue-circle{
+
+	margin-left:15%;
+	margin-bottom:10%;
+}
+.feature-text-container{
+
+  margin-bottom:10%;
+}
+
+
+.parallax{
+
+	background:rgba(0, 0, 0, 0) url("images/parallax.jpg") no-repeat fixed center center /cover;
+	height:500px;
+	width:100%;
+	display:table;
+}
+
+.parallax-content{
+
+	display:table-cell;
+	vertical-align:middle;
+	color:#2c3e50;
+	text-align:center;
+}
+
+.phone img{
+
+	
+}
+
+.download-content{
+
+   height:450px;
+
+}
+.download-right{
+
+	text-align:center;
+}
+
+.download-links{
+
+  height:400px;
+  display:table-cell;
+  vertical-align:middle;
+	
+}
+
+.download-links a{
+
+	display:block;
+	border:3px solid #15365b;
+	margin-bottom:10%;
+	padding:10%;
+	border-radius:10px;
+	color:#0c143d;
+	transition:all .5s;
+}
+
+.download-links a:hover{
+
+	background-color:#15365b;
+	color:#fff;
+}
+.download-links a i{
+
+	font-size:2em;
+}
+
+.download-links a:hover{
+
+	text-decoration:none;
+}
+
+ /* Support area */
+.support{
+
+	background-color:#1a3d61;
+	color:#fff;
+}
+
+.support h2{
+
+	color:#fff;
+}
+
+.support h2:after{
+
+	background-color:#fff;
+}
+
+.support-area p{
+
+	padding:2% 0;
+}
+.support input, .support textarea{
+
+	background-color:#1a3d61;
+	color:#fff; 
+	border:2px solid #fff;
+	border-radius:10px;
+	transition:all .5s;
+}
+
+.support input{
+
+	min-height:50px;
+	margin-bottom:20px;
+}
+
+.support textarea{
+
+	height:150px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+ color: #fff !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #fff !important;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+  color: #fff !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #fff !important;
+}
+
+.support input.btn{
+
+	padding:5px 25px;
+	transition:all .5s;
+}
+
+.support input.btn:hover{
+
+	background-color:#fff;
+	color:#1a3d61;
+
+}
+
+/* Animation Classes */
+
+.animation1,
+.animation2,
+.animation3{
+
+	opacity:0.8;
+}
+
+
+.animation1{
+	
+	animation-delay:.1s;
+}.animation2{
+	
+	animation-delay:.2s;
+}.animation3{
+
+	animation-delay:.3s;
+	
+}.animation4{
+ 
+  animation-delay:.3s;
+  opacity:0.3;
+
+}
+
+.animation5{
+
+	animation-delay:.5s;
+	opacity:0.5;
+}
+
+.animation6{
+	animation-delay: .6s;
+	opacity:0.5;
+}
+/* Canera slider Caption */
+
+.camera_caption > div{
+
+	background:transparent;
+}
+
+.camera_caption{
+
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	color:#34495e;
+	text-align:center;
+}
+.camera_caption h1,h2,h3,h4,h5,h6{
+	margin-bottom:1%;
+}
+.feature-img-area{
+	margin-bottom:20%;
+}
+
+
+.screenshot-area{
+	padding-top:5%;
+}
+
+.feature-area{
+	padding-top:5%;
+}
